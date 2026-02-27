@@ -1,3 +1,5 @@
+**Milestone 1**
+
 # Azure-Based-Demand-Forecasting-Capacity-Optimization-System-
 
 Project Overview
@@ -119,3 +121,117 @@ Key Features
 Conclusion
 This project demonstrates how Azure-based datasets can be efficiently processed in a Windows environment using Python. By combining data cleaning, transformation, and visualization, it provides meaningful insights for demand forecasting and capacity optimization.
 
+
+
+
+
+**Milestone 2**
+
+Feature Engineering & Data Wrangling
+
+
+🎯 Objective
+
+Prepare the dataset for predictive modeling through data enrichment, transformation, and structured preprocessing.
+
+This milestone focuses on identifying demand-driving factors and engineering meaningful features to improve model performance.
+
+
+📂 Dataset
+
+File: azure_synthetic_dataset_5000.csv
+The dataset contains synthetic Azure service usage data including:
+
+Service usage metrics
+
+Service uptime records
+
+User behavior indicators
+
+Time-based activity logs
+
+🔍 Project Tasks
+1️⃣ Identify Demand-Driving Features
+
+Analyzed and extracted key variables influencing demand, including:
+
+Usage trends over time
+
+Service uptime percentages
+
+User activity patterns
+
+Peak vs off-peak behavior
+
+
+2️⃣ Feature Engineering
+
+Created derived and enriched features such as:
+
+📅 Seasonality Flags
+
+Month, quarter, weekday/weekend indicators
+
+Peak-hour flags
+
+📈 Usage Spike Indicators
+
+Threshold-based spike detection
+
+Rolling mean deviations
+
+🔁 Lag Variables
+
+Previous day/week usage
+
+Rolling averages
+
+Moving windows for trend capture
+
+📊 Trend-based and behavior-driven metrics
+
+
+3️⃣ Data Wrangling & Transformation
+
+Cleaned and handled missing values
+
+Standardized schema and column naming
+
+Ensured consistent time granularity
+
+Reshaped data into model-ready format
+
+Verified data types and normalization readiness
+
+
+
+🛠 Technologies Used
+
+Python
+
+Pandas
+
+NumPy
+
+Matplotlib 
+
+Jupyter Notebook (.ipynb)
+
+
+📁 Repository Structure
+├── azure_synthetic_dataset_5000.csv
+├── Milestone_2_Feature_Engineering.ipynb
+├── README.md
+└── LICENSE
+
+
+
+📈 Outcome
+
+At the end of this milestone:
+
+The dataset is fully cleaned and structured
+
+Time-based features are enriched
+
+Demand-driving indicators are engineered
