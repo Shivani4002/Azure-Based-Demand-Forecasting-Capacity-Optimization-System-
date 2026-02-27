@@ -220,7 +220,7 @@ Jupyter Notebook (.ipynb)
 
 📁 Repository Structure
 ├── azure_synthetic_dataset_5000.csv
-├── Milestone_2_Feature_Engineering.ipynb
+├── Milestone2.ipynb
 ├── README.md
 └── LICENSE
 
