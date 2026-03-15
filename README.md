@@ -240,8 +240,11 @@ Demand-driving indicators are engineered
 
 
 
-**
-Milestone 3 – Machine Learning Model Development**
+
+**Milestone 3 – Machine Learning Model Development**
+
+
+
 
 ## Project Title
 
