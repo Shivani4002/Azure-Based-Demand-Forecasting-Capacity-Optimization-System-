@@ -419,5 +419,120 @@ Both models were evaluated using RMSE.
 
 Based on these evaluation metrics, the best-performing model was selected for demand prediction.
 
+**Milestone 4**
+
+# 📊 Demand Forecasting Dashboard (Streamlit)
+
+## 🚀 Project Overview
+
+This project is a **Demand Forecasting Dashboard** built using **Streamlit**.
+It predicts and visualizes resource usage using a trained machine learning model (XGBoost).
+
+The dashboard provides **interactive visualizations** such as:
+
+* 📈 Forecast vs Actual comparison
+* 🥧 Service distribution (Pie chart)
+* 📊 Region-wise demand
+  
+
+---
+
+## 📁 Project Files
+
+| File Name             | Description                                |
+| --------------------- | ------------------------------------------ |
+| `app.py`              | Main Streamlit dashboard application       |
+| `model.pkl`           | Trained machine learning model             |
+| `columns.pkl`         | Feature columns used during training       |
+| `forecast_output.csv` | Dataset with predictions and actual values |
+| `requirements.txt`    | Required Python libraries                  |
+
+---
+
+## ⚙️ Installation & Setup
+
+### 🔹 Step 1: Clone Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+---
+
+### 🔹 Step 2: Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 🔹 Step 3: Run Application
+
+```bash
+python -m streamlit run app.py
+```
+
+---
+
+### 🔹 Step 4: Open in Browser
+
+```
+http://localhost:8501
+```
+
+---
+
+## 📊 Features
+
+* ✅ Real-time dashboard using Streamlit
+* ✅ XGBoost-based prediction model
+* ✅ KPI Metrics (Total, Average, Max usage)
+* ✅ Multiple visualizations:
+
+  * Line chart (Forecast vs Actual)
+  * Bar charts (Region-wise)
+  * Pie chart (Service distribution)
+    
+
+---
+
+## 🌐 Deployment
+
+This project is deployed using **Streamlit Community Cloud**.
+
+🔗 Live App: *(Add your deployed link here)*
+
+---
+
+## 🧠 Tech Stack
+
+* Python
+* Streamlit
+* Pandas
+* Matplotlib
+* Scikit-learn / XGBoost
+
+---
+
+## 🎯 Use Case
+
+This dashboard helps in:
+
+* Predicting future demand
+* Analyzing usage trends
+* Making data-driven decisions
+
+---
+
+
+
+## ⭐ Conclusion
+
+This project demonstrates how machine learning and data visualization can be combined to create an **interactive and insightful dashboard** for demand forecasting.
+
+---
+
 
 
