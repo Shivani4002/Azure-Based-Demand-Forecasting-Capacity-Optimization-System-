@@ -441,7 +441,7 @@ The dashboard provides **interactive visualizations** such as:
 
 | File Name             | Description                                |
 | --------------------- | ------------------------------------------ |
-| `app.py`              | Main Streamlit dashboard application       |
+| `Milestone4.py`       | Main Streamlit dashboard application       |
 | `model.pkl`           | Trained machine learning model             |
 | `columns.pkl`         | Feature columns used during training       |
 | `forecast_output.csv` | Dataset with predictions and actual values |
@@ -471,7 +471,7 @@ pip install -r requirements.txt
 ### 🔹 Step 3: Run Application
 
 ```bash
-python -m streamlit run app.py
+python -m streamlit run Milestone4.py
 ```
 
 ---
@@ -502,7 +502,7 @@ http://localhost:8501
 
 This project is deployed using **Streamlit Community Cloud**.
 
-🔗 Live App: *(Add your deployed link here)*
+🔗 Live App: https://shivani4002-azure-based-demand-forecasting-ca-milestone4-owlpfa.streamlit.app/
 
 ---
 
