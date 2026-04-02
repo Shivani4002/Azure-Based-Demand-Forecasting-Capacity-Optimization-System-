@@ -88,14 +88,14 @@ C:\CODING\PandasApp
 
                 │
                 ├── azure_synthetic _dataset_5000.csv
-                ├── test_pandas.py
+                ├── Milestone_1.py
                 └── README.md
 
 How to Run the Project (Windows – C Drive)
 
   1️⃣ Open Terminal 
       New Terminal
-           test_pandas.py
+           Milestone_1.py
 
              or
  2️⃣ Simply run the python file through 
@@ -502,7 +502,7 @@ http://localhost:8501
 
 This project is deployed using **Streamlit Community Cloud**.
 
-🔗 Live App: https://shivani4002-azure-based-demand-forecasting-ca-milestone4-owlpfa.streamlit.app/
+🔗 Live App: https://shivani4002-azure-based-demand-forecasting-c-milestone-4-j5xaxd.streamlit.app/
 
 ---
 
